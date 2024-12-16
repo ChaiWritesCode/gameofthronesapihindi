@@ -21,8 +21,8 @@ app.get('/', (req, res) => {
 // api routes 
 
 
-app.listen(8000,() => {
-    console.log(`Server started at ${8000}`)
+app.listen(port,() => {
+    console.log(`Server started at ${port}`)
 });
 
 app.get("/api/gharana",db.getHouse);
