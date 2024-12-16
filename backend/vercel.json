@@ -11,6 +11,10 @@
      {
       "src": "/(.*)",
       "dest": "app.js"
-     }
+     },
+    {
+  "source": "/gharana",
+  "destination": "/api/gharana"
+}
     ]
    }
