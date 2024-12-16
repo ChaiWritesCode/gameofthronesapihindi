@@ -4,8 +4,7 @@
   "description": "a api for all game of thrones fans in hindi language",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev":"nodemon app.js"
+    "start":"nodemon app.js"
   },
   "dependencies": {
     "@netlify/functions": "^2.8.2",
