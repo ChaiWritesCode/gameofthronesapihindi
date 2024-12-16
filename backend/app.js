@@ -30,3 +30,4 @@ app.get("/api/character",db.getCharacter);
 app.get("/api/onedialog",db.getOneDialog);
 app.get("/api/fivedialog",db.getFiveDialog);
 app.get("/api/characterdialog",[body('character').trim().escape()],db.getCharacterDialog);
+module.exports = app;
