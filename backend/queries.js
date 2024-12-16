@@ -1,7 +1,8 @@
 const { Pool } = require('pg')
 const {validationResult} = require('express-validator')
 const pool = new Pool({
-    connectionString: "postgresql://geralt:admin@localhost:5432/gameofthrones"
+    connectionString: "postgresql://geralt:admin@localhost:5432/gameofthrones",
+    ssl: { rejectUnauthorized: false } 
 })
 const getHouse = async (request, response) => {
     try {
