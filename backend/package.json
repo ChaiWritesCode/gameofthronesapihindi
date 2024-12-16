@@ -1,0 +1,31 @@
+{
+  "name": "gameofthronesapihindi",
+  "version": "1.0.0",
+  "description": "a api for all game of thrones fans in hindi language",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev":"nodemon app.js"
+  },
+  "dependencies": {
+    "@netlify/functions": "^2.8.2",
+    "@types/express": "^5.0.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.0",
+    "nodemon": "^3.1.7",
+    "pg": "^8.13.1",
+    "serverless-http": "^3.2.0"
+  },
+  "type": "commonjs",
+  "keywords": [
+    "gameofthrones"
+  ],
+  "author": "SimplyChaitanya",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^2.1.8"
+  }
+}
