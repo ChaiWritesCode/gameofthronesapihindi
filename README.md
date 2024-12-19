@@ -10,6 +10,7 @@ A simple API to retrieve some quotes of the famous TV Show, Game of Thrones!
 Get a random quote:
 
 > [http://localhost:8000/api/onedialog](http://localhost:8000/api/onedialog)
+
 [{"id":547,"character":"टायरियन","sentence":"थिएटर का वह टुकड़ा हमारे परिवार को एक पीढ़ी के लिए परेशान करेगा।"}]
 
 ### `GET api/fivedialog`
